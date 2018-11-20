@@ -15,12 +15,6 @@
 A ViewGroup is an object that holds other View (and ViewGroup) objects in order to define the layout of the user interface.
 
 ViewGroup is the base class for:
--   LinearLayout - arrange views in horizontal/vertical row
--   RelativeLayout - arrange views relative to other views/parent
--   ScrollView - scrollable view that contains one child view
--   FrameLayout - block out an area on the screen to display a single item
--   RecyclerView - scrollable "list" of views or view groups
--   ConstraintLayout - position and size widgets in a flexible way
 - TextView - displays text
 - ImageView - displays image
 - Button - button with label, clickable
@@ -33,6 +27,13 @@ ViewGroup is the base class for:
 - SeekBar - displays progress
 - SearchView - search input for queries
 - ProgressBar - displays progress
+-   LinearLayout - arrange views in horizontal/vertical row
+-   RelativeLayout - arrange views relative to other views/parent
+-   ScrollView - scrollable view that contains one child view
+-   FrameLayout - block out an area on the screen to display a single item
+-   RecyclerView - scrollable "list" of views or view groups
+-   ConstraintLayout - position and size widgets in a flexible way
+
     
 We can declare a layout in two ways:
 -   Declare UI elements in XML.
