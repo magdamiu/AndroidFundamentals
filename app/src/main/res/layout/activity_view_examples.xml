@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_8"
     tools:context=".week2.ViewExamplesActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="16dp"
+        android:text="@string/hello_world"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginTop="@dimen/space_8"
+        android:background="@android:color/holo_green_light"
+        android:padding="@dimen/space_16"
+        android:text="@string/hello_android" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_lock_power_off" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClickMeOnClick"
+        android:text="@string/click_me" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_2"
+        android:layout_marginTop="@dimen/space_16"
+        android:background="@color/red"></View>
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/i_accept_t_and_c" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/white" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_8"
+            android:text="@string/black" />
+    </RadioGroup>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_16"
+        android:max="100"
+        android:progress="20" />
+
+</LinearLayout>

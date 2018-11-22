@@ -13,16 +13,21 @@ import magdamiu.com.androidfundamentals.week3.models.Authentication;
 import magdamiu.com.androidfundamentals.week3.utils.EmailHelper;
 
 public class LoginActivity extends AppCompatActivity {
+
+    // the view fields should be global private variables
     private EditText mEditTextEmail;
     private EditText mEditTextPhone;
     private CheckBox mCheckBoxAccept;
     private TextView mTextViewResult;
 
+    // global private variable to build the object Authentication
+    // based on the data filled in the form
     private Authentication mAuthentication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // this method "setContentView" connects the current activity to the "activity_login" screen
         setContentView(R.layout.activity_login);
 
         mAuthentication = new Authentication();
@@ -30,6 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         initView();
     }
 
+    // get the views from the layout based on an unique id defined in the xml file
     private void initView() {
         mEditTextEmail = findViewById(R.id.edittext_email);
         mEditTextPhone = findViewById(R.id.edittext_phone);
@@ -37,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
         mTextViewResult = findViewById(R.id.textview_result);
     }
 
+    // validate the content from the email EditText
     private boolean isEmailValid() {
         String email = mEditTextEmail.getText().toString();
         if (EmailHelper.isEmailValid(email)) {
@@ -48,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    // validate the content from the phone EditText
     private boolean isPhoneValid() {
         String phone = mEditTextPhone.getText().toString();
         if (phone != null && !phone.isEmpty()) {
@@ -59,6 +67,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    // check if the checkbox is checked
     private boolean isAccepted() {
         if (mCheckBoxAccept.isChecked()) {
             mAuthentication.setAccepted(true);
@@ -70,6 +79,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    // implementation for the onClick event for the submit button
     public void btnSubmitOnClick(View view) {
         if (isEmailValid() && isPhoneValid() && isAccepted()) {
             mTextViewResult.setText(mAuthentication.toString());

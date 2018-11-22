@@ -6,6 +6,11 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnWeek2ViewExamplesOnClick"
+        android:text="@string/week2_view_examples" />
 
     <Button
         android:layout_width="wrap_content"

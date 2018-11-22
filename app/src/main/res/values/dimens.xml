@@ -8,4 +8,5 @@
     <dimen name="space_128">128dp</dimen>
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="medium_text">23sp</dimen>
+    <dimen name="space_2">2dp</dimen>
 </resources>

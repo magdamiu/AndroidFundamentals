@@ -52,4 +52,11 @@
     <string name="week3_login">Week 3 - Login</string>
     <string name="week3_view_groups">Week 3 - View Groups</string>
     <string name="week3_web_view">Week 3 - WebView</string>
+    <string name="click_me">Click me!</string>
+    <string name="i_accept_t_and_c">I accept T and C</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="week2_view_examples">Week 2 - View Examples</string>
 </resources>

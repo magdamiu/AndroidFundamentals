@@ -1,5 +1,6 @@
 package magdamiu.com.androidfundamentals.week3.models;
 
+// POJO class used to map the content of the login screen to an object
 public class Authentication {
 
     private String mEmail;
