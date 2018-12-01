@@ -23,6 +23,7 @@
         <activity android:name=".week3.LoginActivity" />
         <activity android:name=".week3.WebViewActivity" />
         <activity android:name=".week2.ViewExamplesActivity"></activity>
+        <activity android:name=".week4.SpinnerActivity"></activity>
     </application>
 
 </manifest>
