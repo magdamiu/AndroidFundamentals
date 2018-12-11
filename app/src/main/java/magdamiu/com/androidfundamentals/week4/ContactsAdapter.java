@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import magdamiu.com.androidfundamentals.R;
@@ -33,6 +35,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsViewHolder> {
         Contact currentContact = mContacts.get(i);
         contactsViewHolder.mTextViewFirstName.setText(currentContact.getFirstName());
         contactsViewHolder.mTextViewLastName.setText(currentContact.getLastName());
+
     }
 
     @Override

@@ -22,8 +22,41 @@
         <activity android:name=".week3.Week3Activity" />
         <activity android:name=".week3.LoginActivity" />
         <activity android:name=".week3.WebViewActivity" />
-        <activity android:name=".week2.ViewExamplesActivity"></activity>
-        <activity android:name=".week4.SpinnerActivity"></activity>
+        <activity android:name=".week2.ViewExamplesActivity" />
+        <activity android:name=".week4.SpinnerActivity" />
+        <activity android:name=".week4.Week4RecapActivity" />
+        <activity android:name=".week4.ConstraintLayoutActivity" />
+        <activity
+            android:name=".week5.LifecycleActivity"
+            android:label="@string/activity_lifecycle" />
+        <activity
+            android:name=".week5.ReceiverLifecycleActivity"
+            android:label="@string/reciever_activity" />
+        <activity android:name=".week5.ImplicitIntentActivity" />
+        <activity android:name=".week4.RecyclerViewActivity" />
+        <activity android:name=".week4.group2.RecyclerViewActivity" />
+        <activity android:name=".week5.SendTextActivity" />
+        <activity
+            android:name=".week5.ReceiveTextActivity"
+            android:parentActivityName=".week5.SendTextActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".week5.SendTextActivity" />
+        </activity>
+        <activity
+            android:name=".week5.FirstActivity"
+            android:label="@string/first_activity" />
+        <activity
+            android:name=".week5.SecondActivity"
+            android:label="@string/second_activity"
+            android:parentActivityName=".week5.FirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".week5.FirstActivity" />
+        </activity>
+        <activity android:name=".week6.tabs.TabsActivity" />
+        <activity android:name=".week6.fragments.StaticFragmentActivity" />
+        <activity android:name=".week6.fragments.DynamicFragmentActivity"></activity>
     </application>
 
 </manifest>

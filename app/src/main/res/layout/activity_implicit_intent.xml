@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week5.ImplicitIntentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/space_16">
+
+        <EditText
+            android:id="@+id/edittext_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://developer.android.com/" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnOpenWebsiteOnclick"
+            android:text="@string/open_website" />
+
+        <EditText
+            android:id="@+id/edittext_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_16"
+            android:text="Bucharest" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnLocationOnClick"
+            android:text="@string/open_location" />
+
+        <EditText
+            android:id="@+id/edittext_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_16"
+            android:text="We love Android! :)" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnShareOnClick"
+            android:text="@string/share_text" />
+
+        <EditText
+            android:id="@+id/edittext_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_16"
+            android:inputType="phone"
+            android:text="022222222" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnPhoneOnClick"
+            android:text="@string/call" />
+    </LinearLayout>
+</ScrollView>

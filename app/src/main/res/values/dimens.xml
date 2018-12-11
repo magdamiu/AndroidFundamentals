@@ -9,4 +9,6 @@
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="medium_text">23sp</dimen>
     <dimen name="space_2">2dp</dimen>
+    <dimen name="space_120">120dip</dimen>
+    <dimen name="space_100">100dip</dimen>
 </resources>

@@ -10,6 +10,15 @@ import magdamiu.com.androidfundamentals.week2.Week2Activity;
 import magdamiu.com.androidfundamentals.week3.LoginActivity;
 import magdamiu.com.androidfundamentals.week3.WebViewActivity;
 import magdamiu.com.androidfundamentals.week3.Week3Activity;
+import magdamiu.com.androidfundamentals.week4.ConstraintLayoutActivity;
+import magdamiu.com.androidfundamentals.week4.RecyclerViewActivity;
+import magdamiu.com.androidfundamentals.week4.SpinnerActivity;
+import magdamiu.com.androidfundamentals.week4.Week4RecapActivity;
+import magdamiu.com.androidfundamentals.week5.FirstActivity;
+import magdamiu.com.androidfundamentals.week5.ImplicitIntentActivity;
+import magdamiu.com.androidfundamentals.week5.LifecycleActivity;
+import magdamiu.com.androidfundamentals.week5.SendTextActivity;
+import magdamiu.com.androidfundamentals.week6.tabs.TabsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,5 +46,46 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnWeek3WebViewOnClick(View view) {
         startActivity(new Intent(MainActivity.this, WebViewActivity.class));
+    }
+
+    public void btnWeek3SpinnerOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, SpinnerActivity.class));
+    }
+
+    public void btnWeek4RecyclerViewOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, RecyclerViewActivity.class));
+    }
+
+    public void btnWeek4RecapOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, Week4RecapActivity.class));
+    }
+
+    public void btnWeek4ConstraintOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, ConstraintLayoutActivity.class));
+    }
+
+    public void btnWeek5CC2(View view) {
+        startActivity(new Intent(MainActivity.this, SendTextActivity.class));
+    }
+
+    public void btnWeek5CC3(View view) {
+        startActivity(new Intent(MainActivity.this, FirstActivity.class));
+    }
+
+    public void btnWeek5ImplicitIntents(View view) {
+        startActivity(new Intent(MainActivity.this, ImplicitIntentActivity.class));
+    }
+
+    public void btnWeek4RecyclerViewGroup2OnClick(View view) {
+        startActivity(new Intent(MainActivity.this, magdamiu.com.androidfundamentals
+                .week4.group2.RecyclerViewActivity.class));
+    }
+
+    public void btnWeek5LifecycleAndSetResultOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, LifecycleActivity.class));
+    }
+
+    public void btnWeek6TabsOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, TabsActivity.class));
     }
 }
