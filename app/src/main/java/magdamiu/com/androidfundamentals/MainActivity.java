@@ -19,6 +19,8 @@ import magdamiu.com.androidfundamentals.week5.ImplicitIntentActivity;
 import magdamiu.com.androidfundamentals.week5.LifecycleActivity;
 import magdamiu.com.androidfundamentals.week5.SendTextActivity;
 import magdamiu.com.androidfundamentals.week6.tabs.TabsActivity;
+import magdamiu.com.androidfundamentals.week7.AlertsAndCardViewActivity;
+import magdamiu.com.androidfundamentals.week7.CollapsingToolbarActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -87,5 +89,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnWeek6TabsOnClick(View view) {
         startActivity(new Intent(MainActivity.this, TabsActivity.class));
+    }
+
+    public void btnWeek7AlertsAndCardViewOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, AlertsAndCardViewActivity.class));
+    }
+
+    public void btnWeek7CollapsingToolbarOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, CollapsingToolbarActivity.class));
     }
 }

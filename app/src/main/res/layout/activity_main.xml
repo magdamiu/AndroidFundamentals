@@ -98,6 +98,15 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek6TabsOnClick"
             android:text="@string/week6_tabs" />
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek7AlertsAndCardViewOnClick"
+            android:text="@string/week_7_alerts_and_cardview" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek7CollapsingToolbarOnClick"
+            android:text="@string/week_7_collapsing" />
     </LinearLayout>
 </ScrollView>

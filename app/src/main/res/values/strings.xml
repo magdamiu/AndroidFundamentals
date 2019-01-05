@@ -93,4 +93,18 @@
     <string name="tab_label2">Here to display some content for Tab2</string>
     <string name="tab_label3">Here to display some content for Tab3</string>
     <string name="week6_tabs">Week 6 - Tabs</string>
+    <string name="date">DatePickerDialog</string>
+    <string name="week_7_alerts_and_cardview">Week 7 - Alerts and CardView</string>
+    <string name="timepickerdialog">TimePickerDialog</string>
+    <string name="alert">Alert with buttons</string>
+    <string name="notice">Notice</string>
+    <string name="alert_title">You have a course to attend.</string>
+    <string name="launch_app">Launch app</string>
+    <string name="reminde_me">Remind me later</string>
+    <string name="cancel">Cancel</string>
+    <string name="click">click</string>
+    <string name="error_occured">An Error Occurred!</string>
+    <string name="retry">RETRY</string>
+    <string name="retry_message">Retry was pressed</string>
+    <string name="week_7_collapsing">Week 7 - Collapsing Toolbar</string>
 </resources>
