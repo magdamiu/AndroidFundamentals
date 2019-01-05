@@ -3,6 +3,8 @@
     package="magdamiu.com.androidfundamentals">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -57,8 +59,9 @@
         <activity android:name=".week6.tabs.TabsActivity" />
         <activity android:name=".week6.fragments.StaticFragmentActivity" />
         <activity android:name=".week6.fragments.DynamicFragmentActivity" />
-        <activity android:name=".week7.AlertsAndCardViewActivity"></activity>
-        <activity android:name=".week7.CollapsingToolbarActivity"></activity>
+        <activity android:name=".week7.AlertsAndCardViewActivity" />
+        <activity android:name=".week7.CollapsingToolbarActivity" />
+        <activity android:name=".week7.CameraActivity"></activity>
     </application>
 
 </manifest>

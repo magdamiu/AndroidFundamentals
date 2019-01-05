@@ -108,5 +108,11 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek7CollapsingToolbarOnClick"
             android:text="@string/week_7_collapsing" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek7CameraOnClick"
+            android:text="@string/week_7_camera" />
+
     </LinearLayout>
 </ScrollView>

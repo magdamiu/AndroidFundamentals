@@ -107,4 +107,6 @@
     <string name="retry">RETRY</string>
     <string name="retry_message">Retry was pressed</string>
     <string name="week_7_collapsing">Week 7 - Collapsing Toolbar</string>
+    <string name="take_picture">Take picture</string>
+    <string name="week_7_camera">Week 7 - Camera Permission</string>
 </resources>

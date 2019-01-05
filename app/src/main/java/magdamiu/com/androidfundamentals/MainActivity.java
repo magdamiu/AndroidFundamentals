@@ -20,6 +20,7 @@ import magdamiu.com.androidfundamentals.week5.LifecycleActivity;
 import magdamiu.com.androidfundamentals.week5.SendTextActivity;
 import magdamiu.com.androidfundamentals.week6.tabs.TabsActivity;
 import magdamiu.com.androidfundamentals.week7.AlertsAndCardViewActivity;
+import magdamiu.com.androidfundamentals.week7.CameraActivity;
 import magdamiu.com.androidfundamentals.week7.CollapsingToolbarActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -97,5 +98,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnWeek7CollapsingToolbarOnClick(View view) {
         startActivity(new Intent(MainActivity.this, CollapsingToolbarActivity.class));
+    }
+
+    public void btnWeek7CameraOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, CameraActivity.class));
     }
 }
