@@ -44,9 +44,7 @@ public class CameraActivity extends AppCompatActivity {
 
         if (checkPermission()) {
             //main logic or main code
-
             // . write your main code to execute, It will execute if the permission is already given.
-
         } else {
             requestPermission();
         }
