@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    android:orientation="vertical"
+    android:padding="@dimen/space_16"
+    tools:context=".week6.fragments.ListenerFragment">
+
+    <EditText
+        android:id="@+id/edittext_first_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edittext_second_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/second_number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_send_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sum" />
+</LinearLayout>

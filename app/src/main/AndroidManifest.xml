@@ -3,8 +3,8 @@
     package="magdamiu.com.androidfundamentals">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -57,11 +57,19 @@
                 android:value=".week5.FirstActivity" />
         </activity>
         <activity android:name=".week6.tabs.TabsActivity" />
-        <activity android:name=".week6.fragments.StaticFragmentActivity" />
-        <activity android:name=".week6.fragments.DynamicFragmentActivity" />
         <activity android:name=".week7.AlertsAndCardViewActivity" />
         <activity android:name=".week7.CollapsingToolbarActivity" />
-        <activity android:name=".week7.CameraActivity"></activity>
+        <activity android:name=".week7.CameraActivity" />
+        <activity android:name=".week6.fragments.BundleFragmentActivity" />
+        <activity android:name=".week6.fragments.FragmentActivity" />
+        <activity android:name=".week6.fragments.MethodFragmentActivity" />
+        <activity android:name=".week6.fragments.ListenerFragmentActivity" />
+        <activity android:name=".week6.fragments.StaticFragmentActivity" />
+        <activity android:name=".week6.fragments.DynamicFragmentActivity" />
+        <activity
+            android:name=".week6.NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

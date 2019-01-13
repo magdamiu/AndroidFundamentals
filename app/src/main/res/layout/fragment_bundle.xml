@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/space_16"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    tools:context=".week6.fragments.BundleFragment">
+
+    <TextView
+        android:id="@+id/textview_check_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>

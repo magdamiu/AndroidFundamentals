@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/space_16"
+    android:layout_height="match_parent"
+    tools:context=".week6.fragments.StaticFragmentActivity">
+
+    <fragment
+        android:id="@+id/fragment_details"
+        android:name="magdamiu.com.androidfundamentals.week6.fragments.ArticleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_128"></fragment>
+
+</LinearLayout>

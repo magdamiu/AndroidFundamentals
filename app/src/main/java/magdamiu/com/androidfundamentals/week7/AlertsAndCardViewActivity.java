@@ -109,8 +109,4 @@ public class AlertsAndCardViewActivity extends AppCompatActivity {
         textView.setTextColor(Color.GREEN);
         snackbar.show();
     }
-    //TODO
-    // Collapsing Toolbar Layout
-    // permission
-
 }

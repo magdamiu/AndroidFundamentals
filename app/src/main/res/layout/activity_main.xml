@@ -98,6 +98,20 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek6TabsOnClick"
             android:text="@string/week6_tabs" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek6FragmentsOnClick"
+            android:text="@string/week6_fragments" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek6NavOnClick"
+            android:text="@string/week6_navigation_drawer" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

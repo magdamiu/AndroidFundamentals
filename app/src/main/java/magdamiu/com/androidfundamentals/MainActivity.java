@@ -18,6 +18,8 @@ import magdamiu.com.androidfundamentals.week5.FirstActivity;
 import magdamiu.com.androidfundamentals.week5.ImplicitIntentActivity;
 import magdamiu.com.androidfundamentals.week5.LifecycleActivity;
 import magdamiu.com.androidfundamentals.week5.SendTextActivity;
+import magdamiu.com.androidfundamentals.week6.NavigationDrawerActivity;
+import magdamiu.com.androidfundamentals.week6.fragments.FragmentActivity;
 import magdamiu.com.androidfundamentals.week6.tabs.TabsActivity;
 import magdamiu.com.androidfundamentals.week7.AlertsAndCardViewActivity;
 import magdamiu.com.androidfundamentals.week7.CameraActivity;
@@ -102,5 +104,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnWeek7CameraOnClick(View view) {
         startActivity(new Intent(MainActivity.this, CameraActivity.class));
+    }
+
+    public void btnWeek6FragmentsOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, FragmentActivity.class));
+    }
+
+    public void btnWeek6NavOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, NavigationDrawerActivity.class));
     }
 }
