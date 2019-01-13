@@ -127,6 +127,11 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek7CameraOnClick"
             android:text="@string/week_7_camera" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek8RetrofitOnClick"
+            android:text="@string/week_8_retrofit" />
 
     </LinearLayout>
 </ScrollView>
