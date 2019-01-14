@@ -25,6 +25,7 @@ import magdamiu.com.androidfundamentals.week7.AlertsAndCardViewActivity;
 import magdamiu.com.androidfundamentals.week7.CameraActivity;
 import magdamiu.com.androidfundamentals.week7.CollapsingToolbarActivity;
 import magdamiu.com.androidfundamentals.week8.MoviesActivity;
+import magdamiu.com.androidfundamentals.week8.github.api.GithubActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -117,5 +118,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnWeek8RetrofitOnClick(View view) {
         startActivity(new Intent(MainActivity.this, MoviesActivity.class));
+    }
+
+    public void btnWeek8RetrofitGithubOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, GithubActivity.class));
     }
 }

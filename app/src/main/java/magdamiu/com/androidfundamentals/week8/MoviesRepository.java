@@ -24,7 +24,7 @@ public class MoviesRepository {
     public static MoviesRepository getInstance() {
         if (sRepository == null) {
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(BuildConfig.BASE_URL)
+                    .baseUrl(BuildConfig.BASE_MOVIES_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
 
@@ -35,7 +35,7 @@ public class MoviesRepository {
     }
 
     public void getMovies(final OnGetMoviesCallback callback) {
-        mTMDbApi.getPopularMovies("<YOUR_KEY>", LANGUAGE, 1)
+        mTMDbApi.getPopularMovies("7aceedc00c475ce216d4d91b7fa5d533", LANGUAGE, 1)
                 .enqueue(new Callback<MoviesResponse>() {
                     @Override
                     public void onResponse(@NonNull Call<MoviesResponse> call, @NonNull Response<MoviesResponse> response) {

@@ -129,4 +129,5 @@
     <string name="week6_navigation_drawer">Week 6 - Navigation Drawer Activity</string>
     <string name="check_internet_error">Please check your internet connection.</string>
     <string name="week_8_retrofit">Week 8 - Retrofit</string>
+    <string name="week_8_retrofit_github">Week 8 - Retrofit Github</string>
 </resources>

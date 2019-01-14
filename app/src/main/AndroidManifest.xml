@@ -70,7 +70,8 @@
             android:name=".week6.NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme" />
-        <activity android:name=".week8.MoviesActivity"></activity>
+        <activity android:name=".week8.MoviesActivity" />
+        <activity android:name=".week8.github.api.GithubActivity"></activity>
     </application>
 
 </manifest>
