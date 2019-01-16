@@ -3,7 +3,7 @@ package magdamiu.com.androidfundamentals.week8.github.api;
 import com.google.gson.annotations.SerializedName;
 
 public class User {
-    @SerializedName("name")
+    @SerializedName("login")
     private String mName;
 
     public User(String name) {
