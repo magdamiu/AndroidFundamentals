@@ -10,14 +10,14 @@
 
     <EditText
         android:id="@+id/edittext_first_number"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/first_number"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/edittext_second_number"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/second_number"
         android:inputType="number" />

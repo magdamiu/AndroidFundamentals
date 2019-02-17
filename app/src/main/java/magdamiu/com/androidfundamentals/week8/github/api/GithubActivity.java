@@ -3,6 +3,7 @@ package magdamiu.com.androidfundamentals.week8.github.api;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
@@ -19,10 +20,14 @@ public class GithubActivity extends AppCompatActivity {
 
     private UsersRepository mUsersRepository;
 
+    private TextView mTextViewGithub;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_github);
+
+        mTextViewGithub = findViewById(R.id.textview_github);
 
         mUsersRepository = UsersRepository.getInstance();
 
@@ -30,11 +35,13 @@ public class GithubActivity extends AppCompatActivity {
             @Override
             public void onSuccess(List<User> users) {
                 Logging.show("Github users = ", users.toString());
+                mTextViewGithub.setText(users.toString());
             }
 
             @Override
             public void onError() {
                 Logging.show("error Github users = ", "check the code :D ");
+                mTextViewGithub.setText(getString(R.string.error_occured));
             }
         });
     }

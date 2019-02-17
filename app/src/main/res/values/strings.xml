@@ -52,7 +52,7 @@
     <string name="hello_world">Hello World!</string>
     <string name="hello_android">Hello Android!</string>
     <string name="week2_view_examples">Week 2 - View Examples</string>
-    <string name="greeting">Have yourself a merry little Christmas, \\nLet your heart be light \\nFrom now on, our troubles will be out of sight</string>
+    <string name="greeting">Have yourself a merry little Christmas, \nLet your heart be light \nFrom now on, our troubles will be out of sight</string>
     <string name="week3_spinner">Week 3 - Spinner</string>
     <string name="week4_recyclerview">Week 4 - Recycler View</string>
     <string name="week4_recap">Week 4 - Recap</string>
@@ -130,7 +130,7 @@
     <string name="check_internet_error">Please check your internet connection.</string>
     <string name="week_8_retrofit">Week 8 - Retrofit</string>
     <string name="week_8_retrofit_github">Week 8 - Retrofit Github</string>
-    <string name="week_9_file_manager">Week 9 | File Manager</string>
+    <string name="week_9_file_manager">Week 9 - File Manager</string>
     <string name="create_file_internal">Create File - Internal</string>
     <string name="read_file_internal">Read File - Internal</string>
     <string name="create_file_external">Create File - External</string>

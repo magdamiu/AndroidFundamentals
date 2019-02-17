@@ -17,4 +17,11 @@ public class User {
     public void setUser(String name) {
         this.mName = name;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name = '" + mName + '\'' +
+                '}';
+    }
 }
