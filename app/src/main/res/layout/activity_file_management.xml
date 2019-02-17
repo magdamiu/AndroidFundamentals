@@ -12,30 +12,31 @@
         android:id="@+id/edittext_file_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/file_name"/>
+        android:hint="@string/file_name" />
 
     <Button
         android:onClick="createFileInternalOnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_file_internal"/>
+        android:text="@string/create_file_internal" />
+
     <Button
         android:onClick="readFileInternalOnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/read_file_internal"/>
+        android:text="@string/read_file_internal" />
 
     <Button
         android:onClick="createFileExternalOnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_file_external"/>
+        android:text="@string/create_file_external" />
 
     <Button
         android:onClick="readFileExternalOnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/read_file_external"/>
+        android:text="@string/read_file_external" />
 
     <TextView
         android:id="@+id/textview_content"

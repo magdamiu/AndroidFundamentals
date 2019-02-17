@@ -52,11 +52,13 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek4RecapOnClick"
             android:text="@string/week4_recap" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="btnWeek4RecyclerViewOnClick"
             android:text="@string/week4_recyclerview" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -117,26 +119,31 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek7AlertsAndCardViewOnClick"
             android:text="@string/week_7_alerts_and_cardview" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="btnWeek7CollapsingToolbarOnClick"
             android:text="@string/week_7_collapsing" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="btnWeek7CameraOnClick"
             android:text="@string/week_7_camera" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="btnWeek8RetrofitOnClick"
             android:text="@string/week_8_retrofit" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="btnWeek8RetrofitGithubOnClick"
             android:text="@string/week_8_retrofit_github" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
