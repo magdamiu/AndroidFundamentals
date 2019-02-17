@@ -137,5 +137,10 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek8RetrofitGithubOnClick"
             android:text="@string/week_8_retrofit_github" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek9FileManager"
+            android:text="@string/week_9_file_manager" />
     </LinearLayout>
 </ScrollView>

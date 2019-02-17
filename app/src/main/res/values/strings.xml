@@ -130,4 +130,13 @@
     <string name="check_internet_error">Please check your internet connection.</string>
     <string name="week_8_retrofit">Week 8 - Retrofit</string>
     <string name="week_8_retrofit_github">Week 8 - Retrofit Github</string>
+    <string name="week_9_file_manager">Week 9 | File Manager</string>
+    <string name="create_file_internal">Create File - Internal</string>
+    <string name="read_file_internal">Read File - Internal</string>
+    <string name="create_file_external">Create File - External</string>
+    <string name="read_file_external">Read File - External</string>
+    <string name="file_name">File name...</string>
+    <string name="file_saved">File Saved.</string>
+    <string name="cannot_save">Cannot save the file - internal storage</string>
+    <string name="cannot_write_external">Cannot Write to External Storage.</string>
 </resources>
