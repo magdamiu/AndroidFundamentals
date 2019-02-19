@@ -149,5 +149,17 @@
             android:layout_height="wrap_content"
             android:onClick="btnWeek9FileManager"
             android:text="@string/week_9_file_manager" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek10BasicUi"
+            android:text="@string/week10_basicui" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek11RecyclerWithClick"
+            android:text="@string/week11_recycler_click" />
     </LinearLayout>
 </ScrollView>

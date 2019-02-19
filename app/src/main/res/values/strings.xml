@@ -139,4 +139,18 @@
     <string name="file_saved">File Saved.</string>
     <string name="cannot_save">Cannot save the file - internal storage</string>
     <string name="cannot_write_external">Cannot Write to External Storage.</string>
+    <string name="hello_from_java">Hello from Java!</string>
+    <string name="change_text">Text changed</string>
+    <string name="new_text">New text</string>
+    <string name="required">Is required</string>
+    <string name="week10_basicui">Week 10 - Basic UI</string>
+    <string name="i_am_a_button">I am a button :)</string>
+    <string name="please_fill_the_input">Please fill the input</string>
+    <string name="i_am_a_checkbox">I am CheckBox</string>
+    <string name="turn_on_off">Turn On/Off</string>
+    <string name="search_query_hint">Query...</string>
+    <string name="single_click">Single Click on position:</string>
+    <string name="long_click">Long press on position:</string>
+    <string name="week11_recycler_click">Week 11 - Recycler With Click</string>
+    <string name="button_item">Button in item click:</string>
 </resources>

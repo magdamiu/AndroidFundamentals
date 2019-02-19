@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import magdamiu.com.androidfundamentals.week10.BasicUiActivity;
+import magdamiu.com.androidfundamentals.week10.recyclerview.ComplexRecyclerView;
 import magdamiu.com.androidfundamentals.week2.ViewExamplesActivity;
 import magdamiu.com.androidfundamentals.week2.Week2Activity;
 import magdamiu.com.androidfundamentals.week3.LoginActivity;
@@ -127,5 +129,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnWeek9FileManager(View view) {
         startActivity(new Intent(MainActivity.this, FileManagementActivity.class));
+    }
+
+    public void btnWeek10BasicUi(View view) {
+        startActivity(new Intent(MainActivity.this, BasicUiActivity.class));
+    }
+
+    public void btnWeek11RecyclerWithClick(View view) {
+        startActivity(new Intent(MainActivity.this, ComplexRecyclerView.class));
     }
 }

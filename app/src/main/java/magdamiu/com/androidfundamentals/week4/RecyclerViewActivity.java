@@ -22,7 +22,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_recycler_view);
 
         // get recycler view from xml layout
-        mRecyclerViewContacts = findViewById(R.id.recyclerview_contacts);
+        mRecyclerViewContacts = findViewById(R.id.recycler_view_contacts_1);
 
         // define and set layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
