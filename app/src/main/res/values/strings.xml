@@ -151,6 +151,8 @@
     <string name="search_query_hint">Query...</string>
     <string name="single_click">Single Click on position:</string>
     <string name="long_click">Long press on position:</string>
-    <string name="week11_recycler_click">Week 11 - Recycler With Click</string>
+    <string name="week10_recycler_click">Week 10 - Recycler With Click</string>
     <string name="button_item">Button in item click:</string>
+    <string name="week_5_saveinstancestateactivity">Week 5 - SaveInstanceStateActivity</string>
+    <string name="week_10_firebase_google_login">Week 10 - Firebase Google Login</string>
 </resources>

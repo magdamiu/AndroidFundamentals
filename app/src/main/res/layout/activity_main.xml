@@ -74,6 +74,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="btnWeek5SaveInstanceStateActivity"
+            android:text="@string/week_5_saveinstancestateactivity" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:onClick="btnWeek5CC2"
             android:text="@string/week5_cc2" />
 
@@ -159,7 +166,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="btnWeek11RecyclerWithClick"
-            android:text="@string/week11_recycler_click" />
+            android:onClick="btnWeek10RecyclerWithClick"
+            android:text="@string/week10_recycler_click" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeek10FirebaseLoginClick"
+            android:text="@string/week_10_firebase_google_login" />
+
+
     </LinearLayout>
 </ScrollView>

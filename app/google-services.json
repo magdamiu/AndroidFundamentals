@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "610269426705",
+    "firebase_url": "https://cursandroid-32b1f.firebaseio.com",
+    "project_id": "cursandroid-32b1f",
+    "storage_bucket": "cursandroid-32b1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610269426705:android:6b8c707f58929ff8",
+        "android_client_info": {
+          "package_name": "magdamiu.com.androidfundamentals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610269426705-f7vej5puq5msust3spa97oqehk6sv490.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWejtHhbPvawOKzBcMi3PbnCK7UYk14r4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

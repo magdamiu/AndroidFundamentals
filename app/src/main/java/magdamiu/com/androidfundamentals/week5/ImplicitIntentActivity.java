@@ -38,13 +38,13 @@ public class ImplicitIntentActivity extends AppCompatActivity {
 
     public void btnOpenWebsiteOnclick(View view) {
         if (mEditTextUrl != null) {
-            // Get the URL text.
+            // Get the URL from EdtText
             String url = mEditTextUrl.getText().toString();
 
-            // Parse the URI and create the intent.
+            // Parse the URI and create the intent
             Uri website = Uri.parse(url);
             Intent intent = new Intent(Intent.ACTION_VIEW, website);
-            // Find an activity to hand the intent and start that activity.
+            // Find an activity to hand the intent and start that activity
             if (intent.resolveActivity(getPackageManager()) != null) {
                 startActivity(intent);
             } else {
